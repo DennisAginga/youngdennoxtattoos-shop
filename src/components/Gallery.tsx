@@ -7,6 +7,12 @@ import skullRoses from "@/assets/tattoo-skull-roses.jpg";
 import dragonColor from "@/assets/tattoo-dragon-color.jpg";
 import geometric from "@/assets/tattoo-geometric.jpg";
 import tribalPhoenix from "@/assets/tattoo-tribal-phoenix.jpg";
+import koiFish from "@/assets/tattoo-koi-fish.jpg";
+import wolfMoon from "@/assets/tattoo-wolf-moon.jpg";
+import butterfly from "@/assets/tattoo-butterfly.jpg";
+import compass from "@/assets/tattoo-compass.jpg";
+import mandala from "@/assets/tattoo-mandala.jpg";
+import lion from "@/assets/tattoo-lion.jpg";
 import earJewelry from "@/assets/piercing-ear-jewelry.jpg";
 import noseCollection from "@/assets/piercing-nose-collection.jpg";
 
@@ -47,6 +53,60 @@ const Gallery = () => {
       size: "Large",
       estimatedPrice: "KES 25,000 - 45,000",
       description: "Powerful phoenix with tribal elements"
+    },
+    {
+      id: 5,
+      image: koiFish,
+      title: "Japanese Koi Fish",
+      category: "Color Work",
+      size: "Large",
+      estimatedPrice: "KES 40,000 - 70,000",
+      description: "Traditional Japanese koi with water waves and cherry blossoms"
+    },
+    {
+      id: 6,
+      image: wolfMoon,
+      title: "Wolf & Moon",
+      category: "Black & Grey",
+      size: "Large",
+      estimatedPrice: "KES 30,000 - 55,000",
+      description: "Howling wolf with mountain silhouette and moon"
+    },
+    {
+      id: 7,
+      image: butterfly,
+      title: "Butterfly Wings",
+      category: "Color Work",
+      size: "Medium",
+      estimatedPrice: "KES 12,000 - 20,000",
+      description: "Delicate butterfly with intricate wing patterns"
+    },
+    {
+      id: 8,
+      image: compass,
+      title: "Nautical Compass",
+      category: "Black & Grey",
+      size: "Medium",
+      estimatedPrice: "KES 15,000 - 28,000",
+      description: "Vintage compass rose with nautical elements"
+    },
+    {
+      id: 9,
+      image: mandala,
+      title: "Sacred Mandala",
+      category: "Dotwork",
+      size: "Medium",
+      estimatedPrice: "KES 18,000 - 32,000",
+      description: "Intricate geometric mandala with spiritual symbolism"
+    },
+    {
+      id: 10,
+      image: lion,
+      title: "Lion Portrait",
+      category: "Black & Grey",
+      size: "Large",
+      estimatedPrice: "KES 35,000 - 65,000",
+      description: "Realistic lion face with detailed mane"
     }
   ];
 
